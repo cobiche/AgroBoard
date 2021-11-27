@@ -4,8 +4,8 @@
     {
       "name": "AgroBoard",
       "maintainer": "Horti-Mix",
-      "websiteURL": "",
-      "email" : "",
+      "websiteURL": "prueba.com",
+      "email" : "hola@prueba.com",
       "platforms":
       [
         {
