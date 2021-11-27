@@ -11,44 +11,46 @@
         {
           "name": "AgroBoard",
           "architecture": "samd",
-          "version": "0.0.26",
+          "version": "1.0.0",
           "category": "Contributed",
           "url": "https://github.com/cobiche/AgroBoard/raw/main/AgroBoard.zip",
           "archiveFileName": "AgroBoard.zip",
-          "checksum": "SHA-1:2943722e218cd12fba74642948af3b32 bfc383ebaab266a4f5b0785a142e7c8d595c03af",
-          "size": "1491702",
-          "boards": [
-            {
-              "name": "AgroBoard"
-            }
-          ],
-          "toolsDependencies":
-          [
-            {
-              "packager": "arduino",
-              "name": "arm-none-eabi-gcc",
-              "version": "7-2017q4"
+          "checksum": "SHA-1:bdee680a863b6063dc953f23a48d5ee754e22233",
+          "help": {
+            "online": "https://prueba.com/"
             },
-            {
-              "packager": "arduino",
-              "name": "bossac",
-              "version": "1.8.0-48-gb176eee"
-            },
-            {
-              "packager": "arduino",
-              "name": "openocd",
-              "version": "0.10.0-arduino9"
-            },
-            {
-              "packager": "arduino",
-              "name": "CMSIS",
-              "version": "4.5.0"
-            },
-            {
-              "packager": "arduino",
-              "name": "CMSIS-Atmel",
-              "version": "1.2.0"
-            }
+          "size": "320316",
+                "boards": [
+                  {
+                    "name": "AgroBoard"
+                  }
+              ],
+          "toolsDependencies": [
+          {
+            "packager": "arduino",
+            "name": "arm-none-eabi-gcc",
+            "version": "4.8.3-2014q1"
+          },
+          {
+            "packager": "arduino",
+            "name": "openocd",
+            "version": "0.9.0-arduino"
+          },
+          {
+            "packager": "arduino",
+            "name": "CMSIS",
+            "version": "4.5.0"
+          },
+          {
+            "packager": "electroniccats",
+            "name": "bossac",
+            "version": "1.0.0-electroniccats-1"
+          },
+          {
+            "packager": "electroniccats",
+            "name": "CMSIS-Atmel",
+            "version": "1.0.0-electroniccats-1"
+          }
           ]
         }
       ],
