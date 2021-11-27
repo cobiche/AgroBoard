@@ -1,0 +1,60 @@
+{
+  "packages":
+  [
+    {
+      "name": "AgroBoard",
+      "maintainer": "Horti-Mix",
+      "websiteURL": "",
+      "email" : "",
+      "platforms":
+      [
+        {
+          "name": "AgroBoard",
+          "architecture": "samd",
+          "version": "0.0.26",
+          "category": "Contributed",
+          "url": "https://drive.google.com/file/d/1DiwrNGwuVNOzQBo7GP3LmBnmJXrIY9uW/view?usp=sharing",
+          "archiveFileName": "AgroBoard.zip",
+          "checksum": "SHA-1:2943722e218cd12fba74642948af3b32 bfc383ebaab266a4f5b0785a142e7c8d595c03af",
+          "size": "1491702",
+          "boards": [
+            {
+              "name": "AgroBoard"
+            }
+          ],
+          "toolsDependencies":
+          [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.8.0-48-gb176eee"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino9"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.0"
+            }
+          ]
+        }
+      ],
+      "tools":
+      [
+      ]
+    }
+  ]
+}
